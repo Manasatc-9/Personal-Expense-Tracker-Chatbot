@@ -21,11 +21,16 @@ A Streamlit expense tracker chatbot that extracts structured expense data from n
 ## Local Setup
 
 1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+    openai
+    gspread
+    google-auth
+    google-auth-oauthlib
+    python-dotenv
+    dateparser
+    streamlit
+   
 
-2. Create a `.env` file in the project root with:
+3. Create a `.env` file in the project root with:
    ```env
    GROQ_API_KEY=your_groq_api_key
    GROQ_MODEL=llama-3.3-70b-versatile
@@ -33,9 +38,9 @@ A Streamlit expense tracker chatbot that extracts structured expense data from n
    SPREADSHEET_ID=your_spreadsheet_id
    ```
 
-3. Place your Google service account JSON key at `credentials.json`.
+4. Place your Google service account JSON key at `credentials.json`.
 
-4. Share the Google Sheet with the service account email found in `credentials.json`.
+5. Share the Google Sheet with the service account email found in `credentials.json`.
 
 ## Run the App
 
