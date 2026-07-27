@@ -1,7 +1,0 @@
-openai
-gspread
-google-auth
-google-auth-oauthlib
-python-dotenv
-dateparser
-streamlit
