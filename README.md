@@ -21,13 +21,13 @@ A Streamlit expense tracker chatbot that extracts structured expense data from n
 ## Local Setup
 
 1. Install dependencies:
-    openai
-    gspread
-    google-auth
-    google-auth-oauthlib
-    python-dotenv
-    dateparser
-    streamlit
+   - openai
+   - gspread
+   - google-auth
+   - google-auth-oauthlib
+   - python-dotenv
+   - dateparser
+   - streamlit
    
 
 3. Create a `.env` file in the project root with:
